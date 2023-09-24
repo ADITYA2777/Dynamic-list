@@ -1,0 +1,19 @@
+
+body{
+    background: #000;
+    color: aliceblue;
+    text-align: center;
+}
+#list-Output{
+    color: gold;
+    font-size: 28px;
+}
+li{
+    list-style-type: none;
+}
+li::before{
+    content: "->";
+    margin-right: 1em;
+    font-size: 20px;
+    letter-spacing: 0.10em;
+}
